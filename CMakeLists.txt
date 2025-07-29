@@ -20,4 +20,5 @@ add_executable(C__DSA
         Functions/revNum.cpp
         Functions/sumofDigits.cpp
         test.cpp
-        Arrays/rotateArray.cpp)
+        Arrays/rotateArray.cpp
+        Arrays/lar_secLar.cpp)
