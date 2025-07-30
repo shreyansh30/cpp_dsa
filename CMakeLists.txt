@@ -24,4 +24,8 @@ add_executable(C__DSA
         Arrays/lar_secLar.cpp
         Arrays/sortedArr.cpp
         Arrays/frequencyCount.cpp
-        Arrays/zeroShift.cpp)
+        Arrays/zeroShift.cpp
+        Arrays/avgArray.cpp
+        Arrays/oneTime.cpp
+        Arrays/reverseArray.cpp
+        Arrays/majorityElement.cpp)

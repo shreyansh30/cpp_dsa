@@ -1,17 +1,17 @@
-// Move all the zeros at the end of the array
+// Reversing the array in place
 
 #include <iostream>
 using namespace std;
 
-
-void zeroShift(int arr[], int n) {
-    int k = 0;
-    for (int i = 0; i < n; i++) {
-        if (arr[i] != 0) {
-            swap(arr[i], arr[k]);
-            k++;
-        }
+void reverseArray(int arr[], int n) {
+    int k = n-1;
+    for (int i = 0; i < n/2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[k];
+        arr[k] = temp;
+        k--;
     }
+    cout << "Reversed Array : ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
@@ -26,5 +26,5 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    zeroShift(arr, n);
+    reverseArray(arr, n);
 }
