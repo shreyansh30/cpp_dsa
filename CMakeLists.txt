@@ -28,4 +28,5 @@ add_executable(C__DSA
         Arrays/avgArray.cpp
         Arrays/oneTime.cpp
         Arrays/reverseArray.cpp
-        Arrays/majorityElement.cpp)
+        Arrays/majorityElement.cpp
+        Arrays/array.cpp)
