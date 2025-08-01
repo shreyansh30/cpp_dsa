@@ -29,4 +29,5 @@ add_executable(C__DSA
         Arrays/oneTime.cpp
         Arrays/reverseArray.cpp
         Arrays/majorityElement.cpp
-        Arrays/missingNum.cpp)
+        Arrays/missingNum.cpp
+        Arrays/kadane.cpp)
